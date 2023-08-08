@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.ant-skeleton .ant-skeleton-header .ant-skeleton-avatar{
+  background-color: white;
+}
