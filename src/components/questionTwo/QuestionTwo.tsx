@@ -54,8 +54,8 @@ function renderTableData(data : any, tableName = "") {
         <tbody>
           {nonObjectEntries.map(([key, value] : any) => (
             <tr key={key}>
-              <td>{key}</td>
-              <td>{value}</td>
+              <td> <div className="break-all">{key}</div></td>
+              <td> <div className="break-all">{value}</div></td>
             </tr>
           ))}
         </tbody>

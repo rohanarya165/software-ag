@@ -1,6 +1,6 @@
 import { Input } from "antd";
 import { AppstoreOutlined } from "@ant-design/icons";
-import { SearchOutlined } from "@ant-design/icons";
+import { SearchOutlined , TrademarkCircleFilled } from "@ant-design/icons";
 
 type Props = {};
 
@@ -13,7 +13,7 @@ const HeaderContent = (props: Props) => {
         suffix={<SearchOutlined />}
       />
       <AppstoreOutlined style={{ color: "white", fontSize: "40px" }} />
-     <div className="h-[44px] w-[70px] bg-white rounded-full"></div>
+      <TrademarkCircleFilled style={{ color: "white", fontSize: "40px" }} />
     </div>
   );
 };
